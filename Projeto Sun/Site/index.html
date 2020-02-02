@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<title>SUN BRONZE</title>
+<meta charset="UTF-8/">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="estilo.css">
+<body>
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-large w3-light-grey">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#plans" class="w3-button w3-block">PLANOS</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block">SOBRE</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#contact" class="w3-button w3-block">CONTATO</a>
+    </div>
+  </div>
+</div>
+
+<!-- Content -->
+<div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+
+  <div class="w3-panel">
+    <h1><b>SUN BRONZE</b></h1>
+    <p>Estúdio de Bronzeamento Natural</p>
+  </div>
+
+  <!-- Slideshow -->
+  <div id="capas">
+  <div class="w3-" style="width:700px height:598px">
+    <div class="w3-display- mySlides" >
+      <img src="imagens/capa.png">
+      <div class="w3-display-topleft  w3-padding-32">        
+      </div>
+    </div>
+    <div class="w3-display- mySlides" >
+      <img src="imagens/capa2.png" style="width:480px;height:598px">
+      <div class="w3-display-middle  w3-padding-32">
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="imagens/capa3.png" style="width:480px;height:598px">
+      <div class="w3-display-topright  w3-padding-32">
+      </div>
+    </div>
+    </div>      
+
+    <!-- Slideshow next/previous buttons -->
+    <div class="w3-container w3-dark-grey w3-padding w3-xlarge">
+      <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+      <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+    
+      <div class="w3-center">
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Grid -->
+  <div class="w3-row w3-container">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">O que nós oferecemos</span>
+    </div>
+    <div class="w3-col l3 m6 w3-light-grey w3-container w3-padding-16">
+      <h3>Design</h3>
+      <p>Design do biquíni em fita adesiva para uma marquinha perfeita e que valorize ainda mais as curvas de uma mulher.</br></br></p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-grey w3-container w3-padding-16">
+      <h3>Acelerador</h3>
+      <p>Acelerador de marquinha para ficar além de uma pele bronzeada deixá-la hidratada com nossos produtos de altíssima qualidade.</br></br></p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-dark-grey w3-container w3-padding-16">
+      <h3>Banho de Lua</h3>
+      <p>Ter uma pele macia, bonita e cheirosa, juntamente com essa pele vier os pelinhos clarinhos que se misturam ao tom da pele e a deixam ainda mais bonita.</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-black w3-container w3-padding-16">
+      <h3>Qualidade</h3>
+      <p>Garantimos a qualidade do nosso trabalho, com produtos de ótima qualidade e profissionais capacitados.</br></br></p>
+    </div>
+  </div>
+
+  <!-- Grid -->
+  <div class="w3-row-padding" id="plans">
+    <div class="w3-center w3-padding-64">
+      <h3>Nossos Planos</h3>
+      <p>Escolha um plano de preços que atenda às suas necessidades.</p>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Básico</li>
+        <li class="w3-padding-16"><b>1</b> Sessão</li>
+        <li class="w3-padding-16"><b>Com</b> Design de Biquíni</li>
+        <li class="w3-padding-16"><b>Com</b> Ativador</li>
+        <li class="w3-padding-16"><b>Sem</b> Banho de Lua</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">R$ 50</h2>
+          <span class="w3-opacity"></span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large">Reserve Já</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
+        <li class="w3-padding-16"><b>2</b> Sessões</li>
+        <li class="w3-padding-16"><b>Com</b> Design de Buiqíni</li>
+        <li class="w3-padding-16"><b>Com</b> Ativador</li>
+        <li class="w3-padding-16"><b>Com</b> Banho de Lua</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">R$ 100</h2>
+          <span class="w3-opacity"></span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large">Reserve Já</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Premium</li>
+        <li class="w3-padding-16"><b>3</b> Sessões</li>
+        <li class="w3-padding-16"><b>Com</b> Design de Buiníni</li>
+        <li class="w3-padding-16"><b>Com</b> Ativador</li>
+        <li class="w3-padding-16"><b>Com</b> Banho de Lua</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">R$ 129</h2>
+          <span class="w3-opacity"></span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large">Reserve Já</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Grid -->
+  <div class="w3-row-padding" id="about">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Quem Somos</span>
+    </div>
+
+    <div id="perfil" class="w3-light-grey">
+      <div class="w3-card-4">
+        <img src="imagens/perfil1.png" alt="Ludi" style="width:100%">
+        <div class="w3-container">
+          <h3>Ludimila Martins</h3>
+          <p class="w3-opacity">CEO & Fundadora</p>
+          <p style="font-size: 16px">Ludimila Martins, 23 Anos Brasilía-DF</br> Fundadora do Estúdio de Bronzeamento Natural <i><b>SUN BRONZE</b></i> </br>"O que você tem todo mundo pode ter, mas o que você é, ninguém pode ser."</p>
+          <p><button class="w3-button w3-light-grey w3-block">Contato</button></p>
+        </div>
+      </div>
+    </div>
+
+
+
+  <!-- Contact -->
+  <div class="w3-center w3-padding-64" id="contact">
+    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Fale Conosco</span>
+  </div>
+
+  <form class="w3-container" action="/action_page.php" target="_blank">
+    <div class="w3-section">
+      <label>Nome</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Name" required>
+    </div>
+    <div class="w3-section">
+      <label>Email</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Email" required>
+    </div>
+    <div class="w3-section">
+      <label>Assunto</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Subject" required>
+    </div>
+    <div class="w3-section">
+      <label>Menssagem</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Message" required>
+    </div>
+    <button type="submit" class="w3-button w3-block w3-black">Enviar</button>
+  </br>
+  </form>
+
+</div>
+
+<!-- Footer -->
+
+<footer class="w3-container w3-padding-32  w3-center">
+  <h4>Encontre-nos no Facebook | Instagram</h4>
+  <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>Para Cima</a>
+  <div class="w3-xlarge w3-section">
+    <p style="font-size: 12px">Copyright &copy; 2019 - by Sérgio Martins</p>
+    <a href="https://www.facebook.com/sunbronze.ocidental.5" class="fa fa-facebook-official w3-hover-opacity"></a>
+    <a href="https://www.instagram.com/sunbronze.ocidental/" class="fa fa-instagram w3-hover-opacity"></a>
+    
+  </div>
+  
+</footer>
+<script src="funcoes.js"></script>
+</body>
+</html>
