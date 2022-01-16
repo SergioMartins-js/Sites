@@ -1,0 +1,37 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  font-size: 16px;
+}
+.w3-half img {
+  margin-bottom: -6px;
+  margin-top: 16px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.w3-half img:hover {
+  opacity: 1;
+}
+
+#mySidebar {
+  background-color: #ffb81f;
+}
+
+#header {
+  color: #ffb81f;
+}
+#button1 {
+  color: #ffb81f;
+}
+#textyellow {
+  color: #ffb81f;
+}
+#buttoncolor {
+  background-color: #ffb81f;
+}

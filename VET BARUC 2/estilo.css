@@ -1,0 +1,52 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Lato", sans-serif;
+}
+.mySlides {
+  display: none;
+}
+.w3-tag,
+.fa {
+  cursor: pointer;
+}
+.w3-tag {
+  height: 15px;
+  width: 15px;
+  padding: 0;
+  margin-top: 6px;
+}
+
+#foot {
+  background-color: #391c18;
+}
+body {
+  background-color: #ffb81f;
+}
+#navbar {
+  background-color: #391c18;
+}
+#rodape {
+  background-color: #391c18;
+}
+
+#color {
+  color: white;
+}
+
+#container {
+  height: 500px;
+}
+
+/* resize images */
+#container img {
+  width: 40%;
+  height: auto;
+}
+
+#centro {
+  align-items: center;
+}
